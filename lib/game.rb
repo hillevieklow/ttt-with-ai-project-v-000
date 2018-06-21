@@ -43,7 +43,7 @@ class Game
         else
           puts "--------------------------------\n"
           puts "Invalid input. Please try again. \n"
-          puts "--------------------------------\n"
+          puts "--------------------------------\n\n"
           setup
         end
       when 2
@@ -58,13 +58,13 @@ class Game
         else
           puts "--------------------------------\n"
           puts "Invalid input. Please try again. \n"
-          puts "--------------------------------\n"
+          puts "--------------------------------\n\n"
           setup
         end
       else
         puts "--------------------------------\n"
         puts "Invalid input. Please try again. \n"
-        puts "--------------------------------\n"
+        puts "--------------------------------\n\n"
         setup
       end
 
