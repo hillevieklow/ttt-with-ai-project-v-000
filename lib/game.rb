@@ -120,9 +120,9 @@ class Game
     end
 
     if won?
-      puts "Congratulations #{winner}!\n"
+      puts "\n\nCongratulations #{winner}!\n"
     elsif draw?
-      puts "Cat's Game!"
+      puts "\n\nCat's Game!"
     end
     board.display
   end
