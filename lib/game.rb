@@ -120,7 +120,7 @@ class Game
     end
 
     if won?
-      puts "\n\nCongratulations #{winner}!\n"
+      puts "Congratulations #{winner}!"
     elsif draw?
       puts "\n\nCat's Game!"
     end
