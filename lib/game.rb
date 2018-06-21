@@ -122,7 +122,7 @@ class Game
     if won?
       puts "Congratulations #{winner}!"
     elsif draw?
-      puts "\n\nCat's Game!"
+      puts "Cat's Game!"
     end
     board.display
   end
